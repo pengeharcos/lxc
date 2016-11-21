@@ -1,0 +1,5 @@
+lxc launch ubuntu:16.04 Rikka
+lxc exec Rikka -- apt -y update
+lxc exec Rikka -- apt -y upgrade
+lxc exec Rikka -- apt -y install mc
+lxc exec Rikka -- apt -y install apache2
